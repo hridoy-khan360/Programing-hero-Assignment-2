@@ -1,0 +1,318 @@
+/*By defult css style reset zone */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---FULL Website style zone---*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Header area Start */
+
+.header-image img {
+  height: 95vh;
+  width: 85%;
+  border-radius: 30px;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.header-text {
+  height: 50vh;
+  width: 35%;
+  position: absolute;
+  top: 110px;
+  left: 160px;
+  color: rgb(252, 249, 249);
+}
+
+.header-text h1 {
+  font-size: 5vw;
+  padding-bottom: 20px;
+}
+
+.watch-live {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 170px;
+  top: 500px;
+
+  background: #dd0000;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(246, 235, 235);
+  text-align: center;
+  gap: 10px;
+}
+
+.watch-live h2 {
+  font-family: serif;
+}
+
+/* Header area End */
+
+/* Aside Area Start */
+.aside-area {
+  height: 40em;
+  width: 405px;
+}
+
+.Navigation {
+  background-color: black;
+  height: 312px;
+  width: 300px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  margin: 92px;
+}
+
+.Navigation a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  background-color: white;
+  height: 60px;
+  border-radius: 10px;
+
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  height: 65px;
+  width: 220px;
+}
+
+.nav a {
+  color: rgb(9, 8, 8);
+  background-color: rgb(249, 247, 247);
+}
+
+.nav a:hover {
+  color: white;
+  background-color: red;
+}
+
+/* Aside Area End */
+
+
+/* section Area Start */
+
+.THE-MAIN-CONTAINER {
+  display: flex;
+}
+
+.section-area {
+  height: 180vh;
+  width: 100%;
+}
+
+.container-blogs {
+  height: 880px;
+  width: 89%;
+  margin-top: 90px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.blog {
+  border: 1px solid rgb(184, 184, 181);
+  border-radius: 10px;
+  height: 270px;
+  width: 100%;
+}
+
+.blog img {
+  height: 140px;
+  width: 100%;
+}
+
+.blog h2 {
+  font-size: 15px;
+  margin: 10px;
+}
+
+.blog h3 {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 138px;
+  margin-top: 10px;
+}
+
+.blog h4 {
+  font: 1em sans-serif;
+}
+
+.blog .time {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 10px;
+  color: #161616b2;
+  margin-right: 90px;
+}
+
+.time .fa-comment-dots {
+  padding-right: 7px;
+}
+
+.time .fa-clock {
+  padding-right: 5px;
+}
+
+.blog-header {
+  border: black solid 1px;
+  border-radius: 4px;
+  padding: 4px 0px 4px 12px;
+}
+
+/* section Area End */
+
+/* footer area start */
+
+footer {
+  height: 60vh;
+  width: 100%;
+
+  background-color: rgb(10, 10, 10);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-links a {
+  color: rgb(142, 138, 138);
+
+  text-decoration: none;
+}
+
+footer h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  color: rgb(222, 218, 218);
+  height: 40%;
+}
+
+hr {
+  margin: 50px 100px;
+  border: 1px solid #ffffff1a;
+}
+
+/* footer area End */
+
+/*---------------
+   WEBSITE-PAGE-2
+   ------------- */
+
+/* Section Area start */
+
+.Upcoming-Matchs {
+  height: 620px;
+  width: 100%;
+}
+
+.matchs-container {
+  height: 500px;
+  width: 89%;
+  margin-top: 93px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.matchs {
+  height: 220px;
+  width: 240px;
+  border: rgb(217, 212, 212) solid 1px;
+  margin-right: 15px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.match-image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.match-image img {
+  height: 45px;
+  width: 75px;
+}
+
+.match-text {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.match-text h1 {
+  padding-bottom: 10px;
+}
+
+.match-text h4 {
+  font: 12px sans-serif;
+}
+
+/* Section Area End */
+
+
+/* animation area start*/
+.animate-charcter {
+  text-transform: capitalize;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/* animation area end */
